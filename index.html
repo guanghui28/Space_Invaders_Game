@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Space Invader</title>
+    </head>
+    <body>
+        <div class="score-container">
+            <span>Score: </span><span id="scoreEl">0</span>
+        </div>
+        <canvas id="canvas"></canvas>
+        <div class="background-button">
+            <div class="background">
+                <h1>Click "Start" Button To Play Game!!!</h1>
+                <button id="start-btn" class="btn">Start</button>
+            </div>
+        </div>
+        <div class="reset-game-container">
+            <div class="background">
+                <h3>
+                    Last game:
+                    <strong><span id="last-score">0</span></strong> score in
+                    last game
+                </h3>
+                <h3>Highest score: <span id="max-score"></span></h3>
+                <h1>Do you want to restart game?</h1>
+                <button id="reset-btn" class="btn">Reset</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
