@@ -26,4 +26,5 @@ If you want to practice your skill then build these features in your game:
 2. Bombs
 5. Spaceship sprite animation
 
-![Uploading game123.png…]()
+<img width="586" alt="invader" src="https://github.com/tylerdurden2k2/Space_Invaders_Game/assets/113615864/25433cfd-8326-4eb9-942b-f44f634479bb">
+
